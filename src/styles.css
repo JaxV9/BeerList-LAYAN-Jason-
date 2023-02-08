@@ -1,1 +1,156 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+    margin-top: 16px;
+    background-color: rgb(241, 241, 241);
+}
+
+.image {
+    display: block;
+    height: 300px;
+}
+
+body {
+    height: 100vh;
+    text-decoration: none;
+}
+
+.under_body {
+    padding: 24px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#a_none {
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    background-color: rgb(4, 6, 36);
+    padding-left: 16px;
+    padding-right: 16px;
+    color: white;
+}
+
+.link {
+    color: initial;
+    text-decoration: none;
+  }
+
+
+.cards {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    color: initial;
+    text-decoration: none;
+    align-items: center;
+}
+
+.card {
+    height: fit-content;
+    width: 350px;
+    border-radius: 8px;
+    margin-top: 124px;
+    margin-left: 28px;
+    margin-right: 28px;
+    border: 0px;
+    transition: all 0.3s ease 0s;
+    color: initial;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.card_expense {
+    height: 800px;
+    width: 320px;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 124px;
+    margin-right: 42px;
+    border: 0px;
+    transition: all 0.3s ease 0s;
+    color: initial;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.card_expense:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.image {
+    display: block;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.title_listing {
+    margin-top: 8px;
+    font-size: 22px;
+}
+
+.price {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.price > p {
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.description_listing {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bandeau {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    background-color: rgb(4, 6, 36);
+    padding-left: 16px;
+    padding-right: 16px;
+    color: white;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
